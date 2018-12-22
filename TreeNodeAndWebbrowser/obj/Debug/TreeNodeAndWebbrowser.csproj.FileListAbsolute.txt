@@ -17,3 +17,4 @@ D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Fo
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Properties.Resources.resources
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csproj.GenerateResource.Cache
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Form2.resources
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\htmlTemplate.html

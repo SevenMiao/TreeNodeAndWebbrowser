@@ -92,6 +92,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="htmlTemplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ReadMe.txt" />
     <None Include="Resources\trash.png" />
     <None Include="Resources\address book.png" />

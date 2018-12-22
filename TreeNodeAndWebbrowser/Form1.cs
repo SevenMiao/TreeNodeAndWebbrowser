@@ -17,7 +17,7 @@ namespace TreeNodeAndWebbrowser
         {
             InitializeComponent();
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             //var node = new TreeNode("测试");
@@ -87,6 +87,17 @@ namespace TreeNodeAndWebbrowser
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //webBrowser1.Navigate("about:blank");
+            //while (webBrowser1.ReadyState != WebBrowserReadyState.Complete)
+            //{
+            //    Application.DoEvents();
+            //}
+            //var a = Application.StartupPath + @"\htmlTempalte.html";
+            //webBrowser1.Navigate(a);
+
+            //webBrowser1.Document.Write();
+
+            this.webBrowser1.Url = new Uri("http://www.baidu.com");//指定url地址为百度首页
         }
     }
 
