@@ -33,8 +33,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.treeView1 = new System.Windows.Forms.TreeView();
-            this.button1 = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -58,20 +58,14 @@
             // 
             // treeView1
             // 
+            this.treeView1.ImageIndex = 0;
+            this.treeView1.ImageList = this.imageList1;
             this.treeView1.Location = new System.Drawing.Point(13, 50);
             this.treeView1.Name = "treeView1";
+            this.treeView1.SelectedImageIndex = 0;
+            this.treeView1.ShowNodeToolTips = true;
             this.treeView1.Size = new System.Drawing.Size(210, 449);
             this.treeView1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(284, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "生成";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // imageList1
             // 
@@ -80,6 +74,16 @@
             this.imageList1.Images.SetKeyName(0, "ball_green.png");
             this.imageList1.Images.SetKeyName(1, "ball_red.png");
             this.imageList1.Images.SetKeyName(2, "ball_yellow.png");
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(284, 23);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "新增";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -102,6 +106,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

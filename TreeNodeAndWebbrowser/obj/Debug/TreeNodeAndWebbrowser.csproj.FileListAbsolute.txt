@@ -10,3 +10,10 @@ D:\功能集锦\TreeNodeAndWebbrowser\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAn
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\TreeNodeAndWebbrowser.exe.config
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.exe
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.pdb
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\TreeNodeAndWebbrowser.exe
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\TreeNodeAndWebbrowser.pdb
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csprojResolveAssemblyReference.cache
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Form1.resources
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Properties.Resources.resources
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csproj.GenerateResource.Cache
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Form2.resources

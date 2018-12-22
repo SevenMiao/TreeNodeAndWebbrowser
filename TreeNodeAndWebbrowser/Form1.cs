@@ -7,22 +7,54 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static TreeNodeAndWebbrowser.Extension;
 
 namespace TreeNodeAndWebbrowser
 {
     public partial class Form1 : Form
     {
+       // MyTreeView mtv;
         public Form1()
-        {
+        {            
             InitializeComponent();
+           // mtv = new MyTreeView();
+           // mtv.VScrollEvent += delegate {
+           //     mtv.Nodes.ResetPictureBoxButtonVisibility();
+           // };
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var node = new TreeNode("测试");
-            treeView1.Nodes.Add(node);
-            Extensions.AddTreeNode(node, GetData()[0]);
-            treeView1.ExpandAll();
+            //var node = new TreeNode("测试");
+            //treeView1.Nodes.Add(node);
+            //treeView1.AddTrizNode(null, new TreeNode("dfdferer"), Update, Remove, GetData()[0]);
+            //treeView1.ExpandAll();
+
+
+            var p = new Person();
+            var frm = new Form2(p);
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                var node = new TreeNode("", 1, 2);
+                treeView1.AddTreeNode(null, node, Update, Remove, p);
+               // mtv.AddTreeNode(null, node, Update, Remove, p);
+            }
+        }
+
+        private void Update(TreeNode currentNode)
+        {
+            var p = ((TreeNodeTag)currentNode.Tag ).person;
+            var frm = new Form2(p);
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                currentNode.ResetNodeText(p.Name,true);//重绘text和编辑删除按钮的位置
+            }
+        }
+
+        private void Remove(TreeNode currentNode)
+        {
+               // treeView1.Nodes.Remove(currentNode);
+           
         }
         #region
         //数据
@@ -57,11 +89,15 @@ namespace TreeNodeAndWebbrowser
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
-            {
-                MessageBox.Show((treeView1.Nodes[0].Nodes[0].Tag as TreeNodeTag).person.Desc);
-            }
-            catch { }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            /*mtv.Parent = this;
+            mtv.Size = new Size(140, 320);
+            mtv.Location = new Point(13, 60);
+            mtv.BackColor = Color.AliceBlue;*/
         }
     }
+
 }
