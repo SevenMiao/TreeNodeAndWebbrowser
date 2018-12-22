@@ -13,14 +13,9 @@ namespace TreeNodeAndWebbrowser
 {
     public partial class Form1 : Form
     {
-       // MyTreeView mtv;
         public Form1()
-        {            
+        {
             InitializeComponent();
-           // mtv = new MyTreeView();
-           // mtv.VScrollEvent += delegate {
-           //     mtv.Nodes.ResetPictureBoxButtonVisibility();
-           // };
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,7 +32,6 @@ namespace TreeNodeAndWebbrowser
             {
                 var node = new TreeNode("", 1, 2);
                 treeView1.AddTreeNode(null, node, Update, Remove, p);
-               // mtv.AddTreeNode(null, node, Update, Remove, p);
             }
         }
 
@@ -93,10 +87,6 @@ namespace TreeNodeAndWebbrowser
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            /*mtv.Parent = this;
-            mtv.Size = new Size(140, 320);
-            mtv.Location = new Point(13, 60);
-            mtv.BackColor = Color.AliceBlue;*/
         }
     }
 
