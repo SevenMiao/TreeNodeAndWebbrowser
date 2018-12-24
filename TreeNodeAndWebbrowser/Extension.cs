@@ -188,5 +188,11 @@ namespace TreeNodeAndWebbrowser
                 //this.tag = new Pipeline();
             }
         }
+        public class HtmlPendingToExcel
+        {
+            public string Name { get; set; }
+            public int RowCount { get; set; }
+            public string Html { get; set; }
+        }
     }
 }

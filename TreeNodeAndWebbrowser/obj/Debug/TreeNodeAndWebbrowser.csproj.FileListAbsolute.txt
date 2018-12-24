@@ -18,3 +18,16 @@ D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Pr
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csproj.GenerateResource.Cache
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Form2.resources
 D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\htmlTemplate.html
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\TreeNodeAndWebbrowser.exe.config
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.exe
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.pdb
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\htmlTemplate.html
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\TreeNodeAndWebbrowser.exe
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\TreeNodeAndWebbrowser.pdb
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csprojResolveAssemblyReference.cache
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Form1.resources
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Form2.resources
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.Properties.Resources.resources
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csproj.GenerateResource.Cache
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\stdole.dll
