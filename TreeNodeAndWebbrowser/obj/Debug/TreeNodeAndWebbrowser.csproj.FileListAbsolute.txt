@@ -31,3 +31,5 @@ E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrow
 E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\obj\Debug\TreeNodeAndWebbrowser.csproj.GenerateResource.Cache
 E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\Microsoft.Office.Interop.Excel.dll
 E:\zmm\TreeNodeAndWebbrowser1\TreeNodeAndWebbrowser\bin\Debug\stdole.dll
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\功能集锦\TreeWeb\TreeNodeAndWebbrowser\bin\Debug\stdole.dll

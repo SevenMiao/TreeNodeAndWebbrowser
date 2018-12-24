@@ -504,8 +504,8 @@ namespace TreeNodeAndWebbrowser
             {
                 try
                 {
-                    //xlApp.Workbooks.Close();
-                    //xlApp.Quit();  //自动打开Excel，抛异常
+                    xlApp.Workbooks.Close();
+                    xlApp.Quit();  //自动打开Excel，抛异常
                 }
                 catch { }
             }
@@ -513,7 +513,46 @@ namespace TreeNodeAndWebbrowser
 
         private void btn_preview_Click(object sender, EventArgs e)
         {
-
+            var wb = new WebBrowser();
+            wb.DocumentText = string.Empty; //赋个值，否则Document为null会报错
+            wb.Document.OpenNew(true);
+           
+            var htmlList = new List<HtmlPendingToExcel>();
+            foreach (TabPage tp in tabControl1.TabPages)
+            {
+                foreach (Control c in tp.Controls)
+                {
+                    if (c is WebBrowser)
+                    {
+                        var w = c as WebBrowser;
+                        if (!string.IsNullOrEmpty(w.DocumentText))
+                        {
+                            htmlList.Add(new HtmlPendingToExcel
+                            {
+                                Html = w.DocumentText,
+                                Name = tp.Text
+                            });
+                        }
+                    }
+                }
+            }
+            StringBuilder s = new StringBuilder();
+            for (int i = 0; i < htmlList.Count; i++)
+            {
+                var html = htmlList[i];
+                if (i == 0)
+                {
+                    s.AppendLine("<h3 style='text-align: center;'>" + html.Name + "</h3>");
+                }
+                else
+                {
+                    s.AppendLine("<h3 style='page-break-before:always;text-align: center;'>" + html.Name + "</h3>");//第二个html放到下一页
+                }
+                s.Append(html.Html);
+            }
+            wb.DocumentText = s.ToString();
+            
+            wb.ShowPrintPreviewDialog();
         }
     }
 
